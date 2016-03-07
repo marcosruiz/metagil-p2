@@ -7,9 +7,11 @@ public class CodeReplacer {
 	static String sourceTemplate;
 	static String code;
 	static String initcode;
-	
-	
-	
+
+	public CodeReplacer(){
+
+	}
+
 	public CodeReplacer(String reqId, String in, PrintWriter out){
 		String templateDir = System.getProperty(TEMPLATE_DIR, "");
 		try {

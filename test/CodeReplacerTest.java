@@ -1,13 +1,12 @@
-import static org.junit.Assert.*;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
 
-import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.io.StringWriter;
 
-import code.CodeReplacer;
-import org.junit.*;
+import static org.junit.Assert.assertEquals;
 
 public class CodeReplacerTest {
 	
